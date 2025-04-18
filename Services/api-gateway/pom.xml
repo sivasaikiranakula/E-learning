@@ -6,6 +6,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+
     <groupId>com.elearning</groupId>
     <artifactId>api-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -36,6 +37,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+        	<groupId>Automation</groupId>
+        	<artifactId>Automation</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
