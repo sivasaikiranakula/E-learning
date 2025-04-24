@@ -20,8 +20,8 @@ public class AuthController {
     @Autowired
     private JwtUtil jwtUtil;
 
-    @Autowired
-    private JwtUtil jwtService;
+//    @Autowired
+//    private JwtUtil jwtService;
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
